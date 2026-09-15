@@ -3,7 +3,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "Mikami — Portfolio",
-  description: "Portfolio développeur — Mikami, étudiant en informatique",
+  description: "Portfolio développeur — Mikami (RAJAONAH Mickaël), étudiant en informatique",
+  authors: [{ name: "RAJAONAH Mickaël" }],
 };
 
 export default function RootLayout({
