@@ -114,6 +114,12 @@ export default function Home() {
           </a>
         </div>
       </section>
+      <footer className="mt-8 pt-6 border-t border-border text-xs text-muted">
+        <p>
+          © {new Date().getFullYear()} RAJAONAH Mickaël — construit avec Next.js
+          & Tailwind CSS
+        </p>
+      </footer>
     </main>
   );
 }
