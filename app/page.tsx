@@ -4,7 +4,7 @@ export default function Home() {
       <section>
         <p className="text-accent text-sm mb-2">$ whoami</p>
         <h1 className="text-3xl md:text-4xl font-bold mb-3">
-          Mikami
+          Mickaël
         </h1>
         <p className="text-muted text-lg leading-relaxed">
           Étudiant en informatique (Parcours IDEV) à l&apos;ESTI Madagascar,
