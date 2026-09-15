@@ -5,6 +5,9 @@ export const metadata: Metadata = {
   title: "Mikami — Portfolio",
   description: "Portfolio développeur — Mikami (RAJAONAH Mickaël), étudiant en informatique",
   authors: [{ name: "RAJAONAH Mickaël" }],
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
