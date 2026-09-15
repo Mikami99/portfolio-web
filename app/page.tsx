@@ -1,5 +1,3 @@
-export const metadata_note = null;
-
 const skills = [
   "Next.js", "React", "TypeScript",
   "C# / Avalonia UI", "Python / OpenCV",
@@ -86,6 +84,34 @@ export default function Home() {
               </div>
             </a>
           ))}
+        </div>
+      </section>
+
+      <section className="mt-16 mb-8">
+        <p className="text-accent text-sm mb-4">$ cat contact.txt</p>
+        <div className="flex flex-wrap gap-4 text-sm">
+          
+            href="https://github.com/Mikami99"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-muted hover:text-accent transition-colors underline underline-offset-4"
+          >
+            GitHub
+          </a>
+          
+            href="mailto:micksraj40@gmail.com"
+            className="text-muted hover:text-accent transition-colors underline underline-offset-4"
+          >
+            Email
+          </a>
+          
+            href="https://www.linkedin.com/in/mickaël-rajaonah-9236312a0/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="text-muted hover:text-accent transition-colors underline underline-offset-4"
+          >
+            LinkedIn
+          </a>
         </div>
       </section>
     </main>
